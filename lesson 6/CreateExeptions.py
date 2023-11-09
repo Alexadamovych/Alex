@@ -7,4 +7,4 @@ def check_material(amoutn_of_material, limit_value):
     else:
         raise BuildingError(amoutn_of_material)
 matterial = 100
-print(check_material(matterial, 300))
+print(check_material(matterial, limit_value=300))
